@@ -5,7 +5,7 @@ import cookieParser from 'cookie-parser'
 import authRouter from './auth'
 import gaRouter from './ga'
 
-const port = process.env.PORT || 6969
+const port = process.env.PORT || 3333
 const app = express()
 
 app.use(cookieParser());

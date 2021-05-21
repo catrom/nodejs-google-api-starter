@@ -8,7 +8,7 @@ const router = express.Router()
 
 const CLIENT_ID = process.env.CLIENT_ID
 const CLIENT_SECRET = process.env.CLIENT_SECRET
-const PORT = process.env.PORT || 6969
+const PORT = process.env.PORT || 3333
 const REDIRECT_URI = `http://localhost:${PORT}/auth/callback`
 
 const oauth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)
